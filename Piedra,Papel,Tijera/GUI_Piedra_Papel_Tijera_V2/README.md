@@ -1,7 +1,7 @@
 
 # Pasos para Correr el programa
 
-'''sh
+```sh
 Crear un ambiente virtual 
 py -m venv env (Linux)
 
@@ -17,5 +17,4 @@ pip freeze > requeriments.txt
 
 > Para salir del ambiente virtual
 deactivate
-
-'''
+```
