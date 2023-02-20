@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Puchamon/CSS/style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/743/743977.png" class="rel" />
+
+    <title>Puchamon</title>
+</head>
+
+<body>
+    <section id="section-pet">
+        <h1 class="title">Puchamon!</h1>
+        <h2 class="subtitle">Select a pet</h2>
+
+        <div class="cards" id="card-container">
+            <!-- All cards are added via JS code -->
+        </div>
+
+        <button id="select-pet" class="buttons">Select</button>
+    </section>
+    <!----------------------------------- Firts part of the code------------------------------------------>
+    <section id="section-combat">
+        <div class="container-pets">
+            <div class="pets-combat">
+                <div class="pet-info-50">
+                    <label class="card-info-left">
+                        <p><span id="pet-of-player"></span><span id="lifes-player"> 🤍🤍🤍🤍🤍</span> <img id="img-pet">
+                        </p>
+                    </label>
+                </div>
+                <div class="pet-info-50">
+                    <label class="card-info-right">
+                        <p>PC <span id="lifes-enemy"> 🤍🤍🤍🤍🤍</span> <img id="img-pet-enemy"></p>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="buttons-attack" id="attacks-container">
+                <h2 class="subtitle">Select Attack</h2>
+                <!-- Los botones de los ataques se agregan por medio de JS -->
+                <div id="section-reset">
+                    <button id="button-reset" class="buttons">Reset</button>
+                </div>
+            </div>
+            <div class="container-message">
+                <h2 class="subtitle">Historic</h2>
+                <div id="section-message">
+                    <p id="spann">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/Puchamon/js/puchamon.js"></script>
+</body>
+
+</html>
