@@ -15,6 +15,9 @@ pip install tk
 Guardar las librerias instaladas en un archivo 
 pip freeze > requeriments.txt
 
+Instalar librerias 
+pip install -r requeriments.txt
+
 > Para salir del ambiente virtual
 deactivate
 ```
